@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="https://hi.publication.geoxis.co/wp-content/uploads/2022/06/Which-version-you-like-Oo-Antava.webp">
+    <title>oo antava</title>
+    <style>
+        body {
+            margin: 0; 
+            background-image: url(https://i.pinimg.com/originals/dc/b2/39/dcb2394ca0ff2536ee37476603d3a35b.jpg);
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: cover; 
+            background-position: center;
+            text-align: center;
+            position: relative; /* Add position relative for proper positioning */
+        }
+
+        video {
+            max-width: 600px; /* Ensure the video does not exceed the viewport width */
+            height: 400px; /* Maintain aspect ratio */
+        }
+        
+        h1 {
+            margin: 0;
+            margin-bottom: 170px; /* Adjusted margin */
+            border: 10px solid hsl(0, 4%, 13%);
+            background-color: hsl(0, 4%, 13%);
+            color: hsl(57, 83%, 51%);
+            opacity: 0.8; /* Adjusted opacity */
+            font-family: 'Times New Roman', Times, serif;
+            padding: 20px;
+            font-size: 24px; /* Adjusted font size */
+        }
+
+        /* Style for navigation bars */
+        .nav-bar {
+            position: absolute;
+            top: 10px;
+            left: 10px;
+            z-index: 1; /* Ensure the navigation bars are above the video */
+        }
+
+        .nav-bar button {
+            background-color: #ff0000;
+            border: none;
+            color: #fff;
+            padding: 5px 10px;
+            font-size: 16px;
+            margin-right: 5px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1><b>OO ANTAVA.MP3</b></h1>
+    </div>
+    <div class="nav-bar">
+        <!-- Navigation buttons -->
+        <button onclick="document.querySelector('video').play()">Play</button>
+        <button onclick="document.querySelector('video').pause()">Pause</button>
+    </div>
+    <video controls>
+        <source src="004.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+    </video>
+</body>
+</html>
